@@ -1,16 +1,17 @@
 # Toy Consignment Shop
 
-You are going to create an application for a consignment store specializing in children's toys. Use Google image search to find some toys for your store.
+An application for a consignment store specializing in children's toys. Images from Google image search to find some toys for your store.
 
-## SASS Automation
+## Resources
 
-You must use SASS to style your application. Using your automation tool of choice, set up a task to automate the transpilation of SASS to CSS for inclusion in your application.
+- SASS
+- Grunt
+- Browserify
+- Handlebars
+- Firebase
+- jQuery
 
-## Firebase Structure
-
-Create a new Firebase application. There will only be one collection, named `toys`.
-
-### Toy Data
+## Toy Data
 
 Each toy will need the following properties.
 
@@ -20,8 +21,6 @@ Each toy will need the following properties.
 4. Short description
 
 ## Views
-
-You will need 3 views in this application. You must use Handebars to create templates for each view. Use jQuery to swap the views in and out of an entry point element in `index.html` when the user chooses to visit those sections of your app. Use Browserify to modularize and compile your JS.
 
 ### List all toys
 
@@ -34,7 +33,6 @@ Create a basic view that shows the toy name as a title, the toy image, and the p
 ### Add / delete toy
 
 Create a form for addding a new toy to Firebase. Make sure the form fields match the format you defined in your toys collection.  
-
 You will also need to add a button to each toy that allows the user to delete it from the list and from Firebase.
 
 ## Stretch goals
@@ -42,5 +40,3 @@ You will also need to add a button to each toy that allows the user to delete it
 2. Create a form for registering/logging in a user. 
 3. When the signed-in user adds a toy to Firebase, save the user id to the toy. 
 4. Allow the user to view only toys he/she added to the db.  
-
-
